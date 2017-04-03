@@ -1,4 +1,4 @@
-<h1> Guidelines of contributing to this Project.
+<h1> Guidelines of contributing to this Project.</h1>
 
 *  Please open an issue before working on any part of project
 *  Before starting to work get the issue assigned
