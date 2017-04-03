@@ -1,0 +1,5 @@
+[Default]
+files = **/*.*
+bears = SpaceConsistencyBear
+use_spaces = True
+no_orig = True
