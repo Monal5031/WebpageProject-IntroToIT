@@ -3,7 +3,8 @@ Webpage Project for Introduction to IT course.
 
 
 Works to be done:
-* Navbar
+
+* <s>Navbar</s>
 * Separator
 * Decide guest book
 * Home
