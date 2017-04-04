@@ -9,3 +9,4 @@ Works to be done:
 * Home
 * contact
 * Some random thing
+* <s>Content</s>
