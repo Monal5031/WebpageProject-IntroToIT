@@ -1,5 +1,4 @@
-[Default]
-files = **/*.*
-bears = SpaceConsistencyBear
-use_spaces = True
-no_orig = True
+bears = SpaceConsistencyBear,IndentationBear
+files = **.(md|html|css)
+ignore = vendors/**
+use_spaces = yeah

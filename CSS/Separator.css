@@ -2,11 +2,13 @@
     text-align: center;
     position: absolute;
     vertical-align: middle;
-    margin-top: -20px;
+    margin-top: -28px;
     margin-left: 48%;
 }
 
 .line{
-    border-top: 1px solid black;
+    border-top: 5px solid black;
     position: relative;
+    margin-left: 80px;
+    margin-right: 80px;
 }
