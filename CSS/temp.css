@@ -1,4 +1,23 @@
-/* W3.CSS 4.03 Mar 2017 by Jan Egil and Borge Refsnes */
+.hobby-container {
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.intro-container {
+    font-size: 13px;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+.name {
+    font-size: 18px;
+    margin-left: 20%;
+}
+
+.fix-intro {
+    position: fixed;
+}
+
 html {
     box-sizing: border-box
 }
@@ -7,7 +26,6 @@ html {
     box-sizing: inherit
 }
 
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -183,7 +201,7 @@ textarea {
 html, body {
     font-family: Verdana, sans-serif;
     font-size: 15px;
-    line-height: 1.5
+
 }
 
 html {
@@ -231,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 hr {
     border: 0;
     border-top: 1px solid #eee;
-    margin: 20px 0
+    margin: 10px 8px;
 }
 
 .image {
@@ -611,7 +629,7 @@ a {
     }
 
     .col.m4, .one-third {
-        width: 33.33333%
+        width: 20%
     }
 
     .col.m5 {
@@ -627,7 +645,7 @@ a {
     }
 
     .col.m8, .two-third {
-        width: 66.66666%
+        width: 79%
     }
 
     .col.m9, .threequarter {
@@ -857,7 +875,7 @@ a {
     bottom: 0
 }
 
-.display-bottomright {
+.display-bottom-right {
     position: absolute;
     right: 0;
     bottom: 0
@@ -874,7 +892,7 @@ a {
 .display-left {
     position: absolute;
     top: 50%;
-    left: 0%;
+    left: 0;
     transform: translate(0%, -50%);
     -ms-transform: translate(-0%, -50%)
 }
@@ -882,12 +900,12 @@ a {
 .display-right {
     position: absolute;
     top: 50%;
-    right: 0%;
+    right: 0;
     transform: translate(0%, -50%);
     -ms-transform: translate(0%, -50%)
 }
 
-.display-topmiddle {
+.display-top-middle {
     position: absolute;
     left: 50%;
     top: 0;
@@ -895,7 +913,7 @@ a {
     -ms-transform: translate(-50%, 0%)
 }
 
-.display-bottommiddle {
+.display-bottom-middle {
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -951,7 +969,6 @@ a {
     padding: 0.01em 16px
 }
 
-
 .card-2 {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
 }
@@ -959,9 +976,6 @@ a {
 .card-4 {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
 }
-
-
-
 
 .text-opacity, .hover-opacity:hover {
     opacity: 0.60
