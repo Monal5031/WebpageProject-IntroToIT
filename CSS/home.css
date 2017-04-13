@@ -1,44 +1,41 @@
-ul.navbar{
-	font-family : "Segoe UI",Arial,sans-serif;
-	font-size : 17px;
-	background : #5f5f5f;
-	list-style-type: none;	
-	width : 100%;
-	overflow: auto;
-	color : #f1f1f1;
-    
-
+ul.navbar {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 17px;
+    background: #5f5f5f;
+    list-style-type: none;
+    width: 100%;
+    overflow: auto;
+    color: #f1f1f1;
 
 }
 
-.nav-list{
-	float : right;
+.nav-list {
+    float: right;
 }
 
-li a, .dropbtn{
-	display: inline-block;
+li a, .dropbtn {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-
-#active{
-	background-color : #008CBA;
-	color : #ffffff;
+#active {
+    background-color: #008CBA;
+    color: #ffffff;
 }
 
 li a:hover, #dropdown:hover .dropbtn {
-      background-color: #4CAF50;
-  }
+    background-color: #4CAF50;
+}
 
 li dropbtn {
     display: inline-block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .navbar {
@@ -49,7 +46,6 @@ li dropbtn {
     background-color: #333;
 }
 
-
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -57,7 +53,6 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 
 #dropdown {
     display: inline-block;
@@ -68,7 +63,7 @@ li a, .dropbtn {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -80,7 +75,9 @@ li a, .dropbtn {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
     display: block;

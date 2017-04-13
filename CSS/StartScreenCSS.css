@@ -23,8 +23,13 @@ body, p {
 }
 
 /* reasonable starting margins */
-p, h1, h2, h3, h4, h5, h6, ol, ul, li { margin: 20pt; }
-li { margin-left: 2em; }
+p, h1, h2, h3, h4, h5, h6, ol, ul, li {
+    margin: 20pt;
+}
+
+li {
+    margin-left: 2em;
+}
 
 /* setup headings */
 h1, h2, h3, h4, h5, h6 {
@@ -33,15 +38,36 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-h1 {color:lightgreen; }
+h1 {
+    color: lightgreen;
+}
 
-h1 { font-size: 200%; }
-h2 { font-size: 180%; }
-h3 { font-size: 160%; }
-h4 { font-size: 140%; }
-h5 { font-size: 120%; }
-h6 { font-size: 100%; }
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 180%;
+}
+
+h3 {
+    font-size: 160%;
+}
+
+h4 {
+    font-size: 140%;
+}
+
+h5 {
+    font-size: 120%;
+}
+
+h6 {
+    font-size: 100%;
+}
 
 /* setup pre */
-pre { font-family: consolas, monospace; }
+pre {
+    font-family: consolas, monospace;
+}
 
