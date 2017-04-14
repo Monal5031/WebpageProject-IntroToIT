@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-<title>Anshumann Verma</title>
+<title>Anshuman Verma</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Favicon link -->
 <link rel="shortcut icon" href="IMAGES/favicon.ico" type="image/x-icon">
 <!-- CSS of grids,etc-->
 <link rel="stylesheet" type="text/css" href="CSS/temp.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <!-- CSS of navbar and right side -->
 <link rel="stylesheet" href="CSS/home.css">
 <!-- CSS link of icons by font-awesome -->
@@ -31,10 +32,11 @@
         <div class="one-third fix-intro">
             <div class="white-color grey-text card-4">
                 <div class="display-container">
-                    <img src="IMAGES/dbs1.jpg" style="width:100%" alt="Avatar">
-                    <div class="name text-black display-bottom-left">Anshumann Verma</div>
+                    <img src="IMAGES/me.jpg"  style="width:100%" height="250" alt="Avatar">
+                    <!-- <div class="name text-black display-bottom-left">Anshuman Verma</div>-->
                 </div>
                 <div class="intro-container">
+					<span class="tag-box color-name box-round" style="font-family:"Sans-serif",Trebuchet MS>Anshuman Verma</span>
                     <p><i class="fa fa-briefcase fa-fw margin-right size-large text-teal"></i>Student</p>
                     <p><i class="fa fa-home fa-fw margin-right size-large text-teal"></i>Vadodara, India</p>
                     <p><i class="fa fa-envelope fa-fw margin-right size-large text-teal"></i>anshu.av97@gmail.com</p>
@@ -73,19 +75,29 @@
         <div class="two-third" style="margin-left: 21%;">
 
             <ul class="navbar">
-                <li class="nav-list"><a href="#cu"> CONTACT </a></li>
+                <li class="nav-list" onclick="smoothScroll(document.getElementById('contact'))" ><a href="#contact"> CONTACT </a></li>
                 <li id="#head-quote" class="nav-list" onclick="smoothScroll(document.getElementById('quote'))"><a
                         href="#head-quote"> QUOTE </a></li>
                 <li class="nav-list dropdown">
                     <a href="javascript:void(0)" onclick="smoothScroll(document.getElementById('about'))">ABOUT ME</a>
                     <div class="dropdown-content" id="sports">
-                        <a href="#footy" onclick="smoothScroll(document.getElementById('achieve'))">Achievements</a>
-                        <a href="#footy" onclick="smoothScroll(document.getElementById('work'))">Works</a>
-                        <a href="#footy" onclick="smoothScroll(document.getElementById('skill'))">Skills</a>
+                        <a onclick="smoothScroll(document.getElementById('achieve'))">Achievements</a>
+                        <a onclick="smoothScroll(document.getElementById('work'))">Works</a>
+                        <a onclick="smoothScroll(document.getElementById('skill'))">Skills</a>
                     </div>
                 </li>
                 <li id="active" class="nav-list" onclick="smoothScroll(document.getElementById('intro'))"><a
                         href="#home"> INTRODUCTION </a></li>
+				<li style="float:left">
+					<div id="time" >
+					<span class="tag-box color-teal box-round">
+						<SCRIPT LANGUAGE="JavaScript">
+						displayTime();
+						</SCRIPT>
+					</span>
+						
+					</div>
+				</li>
             </ul>
 
 
@@ -101,7 +113,7 @@
                 </div>
                 <div class="container">
                     <h5 class="text-opacity"><b>Soccer Player</b></h5>
-                    <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Aug 2016 - <span
+                    <h6 class="text-teal"><i class="fa fa-futbol-o fa-fw margin-right"></i>Aug 2016 - <span
                             class="tag-box color-teal box-round">Current</span></h6>
                     <p>Play football for institute team</p>
                     <hr>
@@ -130,7 +142,8 @@
                 </div>
                 <div class="container">
                     <h5 class="text-opacity" id="work"><b>Works</b></h5>
-                    <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>2013 - 2015</h6>
+                    <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>2016 - <span
+                            class="tag-box color-teal box-round">Current</span></h6>
                     <p>
                     <ul class="works">
                         <li>Developed a local directory 'Word Search'</li>
@@ -141,7 +154,9 @@
                 </div>
                 <div class="container">
                     <h5 class="text-opacity" id="skill"><b>Skills</b></h5>
-                    <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>2010 - 2013</h6>
+                    <h6 class="text-teal"><i class="fa fa-cogs fa-fw margin-right"></i><span
+                            class="tag-box color-teal box-round">Current</span></h6>
+					
                     <p>
                     <ul class="skills">
                         <li>HTML</li>
@@ -166,7 +181,39 @@
                         <br> <div style="text-align: right; font-size: 25px">- John F. Woods</div></p>
                 </div>
             </div>
-
+			
+			
+			<div class="container card-2 white-color margin-bottom"  id="contact">
+              <h2 class="grey-text padding-16"><i class="fa fa-user-o fa-fw margin-right xx-large text-teal"></i>Contact ME</h2>
+              <div class="container">
+                <h5 class="text-opacity"><b>Facebook</b></h5>
+                <h6 class="text-teal"><i class="fa fa-facebook-square margin-right"></i><a href="https://www.facebook.com/anshumanv12" style="text-decoration:none">My Profile</a></h6>
+                <hr>
+              </div>
+              <div class="container">
+                <h5 class="text-opacity"><b>University Address</b></h5>
+                <h6 class="text-teal"><i class="fa fa-address-book fa-fw margin-right"></i></h6>
+				<p>c/o Block No.9 (IC Department), Government Engineering College, Sector-28,<br> Gandhinagar, Gujarat - 382028</p>
+                <hr>
+              </div>
+              <div class="container">
+                <h5 class="text-opacity"><b>GitHub</b></h5>
+                <h6 class="text-teal"><i class="fa fa-github fa-fw margin-right"></i><a href="https://github.com/Anshuman-Verma" style="text-decoration:none">My GitHub</a></h6>
+                <br>
+              </div>
+			  <div class="container">
+                <h5 class="text-opacity"><b>Quora</b></h5>
+                <h6 class="text-teal"><i class="fa fa-quora    fa-fw margin-right"></i><a href="https://www.quora.com/profile/Anshuman-Verma-15" style="text-decoration:none">My Feeds</a></h6>
+                <br>
+              </div>
+			  <div class="container">
+                <h5 class="text-opacity"><b>Google Plus</b></h5>
+                <h6 class="text-teal"><i class="fa fa-google-plus fa-fw margin-right"></i><a href="https://plus.google.com/101793433858566564755" style="text-decoration:none">My G+</a></h6>
+                <br>
+              </div>
+            </div>
+			
+			
             <!--  Will display table here which will be displayed only on clicking
                         <div class="container card-2 white-color margin-bottom">
                             <h2 class="grey-text padding-16"><i class="fa fa-quote-left fa-fw margin-right xx-large text-teal"></i>Schooling
@@ -178,6 +225,9 @@
                         </div>
             -->
 
+			
+			<!-- Below is the standard card template for adding various containers -->
+			
             <!-- <div class="container card-2 white-color margin-bottom">
               <h2 class="grey-text padding-16"><i class="fa fa-certificate fa-fw margin-right xx-large text-teal"></i>Education</h2>
               <div class="container">
@@ -226,8 +276,7 @@
     </SCRIPT>
 </div>
 <center>
-    <div id="time">
-        what the heck man!
+    <div id="time">  
         <SCRIPT LANGUAGE="JavaScript">
             displayTime();
         </SCRIPT>
