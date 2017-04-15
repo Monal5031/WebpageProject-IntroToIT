@@ -1,3 +1,11 @@
+#time{
+	font-family: "Sans-serif", Segoe UI;
+	font-size: 25px;
+	padding : 8px;
+}
+
+
+
 .hobby-container {
     font-size: 15px;
     margin-top: 8px;
@@ -1189,6 +1197,14 @@ a {
 .sand, .hover-sand:hover {
     color: #000 !important;
     background-color: #fdf5e6 !important
+}
+
+.color-name{
+	margin: 5px;
+	margin-left: 8px;
+	font-size:25px;
+	background: #4bb3bb;
+	font-family: 'PT Sans', Sans-serif;
 }
 
 .color-teal, .hover-teal:hover {
