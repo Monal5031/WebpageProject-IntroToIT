@@ -1,9 +1,24 @@
+.hover-cursor {
+    cursor: pointer;
+}
 #time{
 	font-family: "Sans-serif", Segoe UI;
 	font-size: 25px;
 	padding : 8px;
 }
 
+.footer-icons-div{
+    font-size: 20px;
+    position: inherit;
+}
+
+.footer-icons{
+    margin-right : 10px;
+}
+
+.footer-icons:hover{
+    cursor:pointer;
+}
 
 
 .hobby-container {
@@ -1201,10 +1216,8 @@ a {
 
 .color-name{
 	margin: 5px;
-	margin-left: 8px;
 	font-size:25px;
-	background: #4bb3bb;
-	font-family: 'PT Sans', Sans-serif;
+	background: #009688;
 }
 
 .color-teal, .hover-teal:hover {

@@ -6,7 +6,7 @@
 <!-- Favicon link -->
 <link rel="shortcut icon" href="IMAGES/favicon.ico" type="image/x-icon">
 <!-- CSS of grids,etc-->
-<link rel="stylesheet" type="text/css" href="CSS/temp.css">
+<link rel="stylesheet" type="text/css" href="CSS/index.css">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <!-- CSS of navbar and right side -->
 <link rel="stylesheet" href="CSS/home.css">
@@ -32,11 +32,11 @@
         <div class="one-third fix-intro">
             <div class="white-color grey-text card-4">
                 <div class="display-container">
-                    <img src="IMAGES/me.jpg"  style="width:100%" height="250" alt="Avatar">
+                    <img src="IMAGES/me.JPG"  style="width:100%" height="240" alt="Avatar">
                     <!-- <div class="name text-black display-bottom-left">Anshuman Verma</div>-->
                 </div>
                 <div class="intro-container">
-					<span class="tag-box color-name box-round" style="font-family:"Sans-serif",Trebuchet MS>Anshuman Verma</span>
+					<span class="tag-box color-name box-round">Anshuman Verma</span>
                     <p><i class="fa fa-briefcase fa-fw margin-right size-large text-teal"></i>Student</p>
                     <p><i class="fa fa-home fa-fw margin-right size-large text-teal"></i>Vadodara, India</p>
                     <p><i class="fa fa-envelope fa-fw margin-right size-large text-teal"></i>anshu.av97@gmail.com</p>
@@ -81,9 +81,9 @@
                 <li class="nav-list dropdown">
                     <a href="javascript:void(0)" onclick="smoothScroll(document.getElementById('about'))">ABOUT ME</a>
                     <div class="dropdown-content" id="sports">
-                        <a onclick="smoothScroll(document.getElementById('achieve'))">Achievements</a>
-                        <a onclick="smoothScroll(document.getElementById('work'))">Works</a>
-                        <a onclick="smoothScroll(document.getElementById('skill'))">Skills</a>
+                        <div class="hover-cursor"><a onclick="smoothScroll(document.getElementById('achieve'))">Achievements</a></div>
+                        <div class="hover-cursor"><a onclick="smoothScroll(document.getElementById('work'))">Works</a></div>
+                        <div class="hover-cursor"><a onclick="smoothScroll(document.getElementById('skill'))">Skills</a></div>
                     </div>
                 </li>
                 <li id="active" class="nav-list" onclick="smoothScroll(document.getElementById('intro'))"><a
@@ -198,7 +198,7 @@
               </div>
               <div class="container">
                 <h5 class="text-opacity"><b>GitHub</b></h5>
-                <h6 class="text-teal"><i class="fa fa-github fa-fw margin-right"></i><a href="https://github.com/Anshuman-Verma" style="text-decoration:none">My GitHub</a></h6>
+                <h6 class="text-teal"><i class="fa fa-github-alt fa-fw margin-right"></i><a href="https://github.com/Anshuman-Verma" style="text-decoration:none">My GitHub</a></h6>
                 <br>
               </div>
 			  <div class="container">
@@ -260,12 +260,14 @@
 
 <footer class="container color-teal text-center top-margin">
     <p>Find me on social media.</p>
-    <i class="fa fa-facebook-official hover-opacity"></i>
-    <i class="fa fa-instagram hover-opacity"></i>
-    <i class="fa fa-snapchat hover-opacity"></i>
-    <i class="fa fa-pinterest-p hover-opacity"></i>
-    <i class="fa fa-twitter hover-opacity"></i>
-    <i class="fa fa-linkedin hover-opacity"></i>
+    <div class="footer-icons-div">
+        <i class="fa fa-facebook-official hover-opacity footer-icons"></i>
+        <i class="fa fa-instagram hover-opacity footer-icons"></i>
+        <i class="fa fa-snapchat hover-opacity footer-icons"></i>
+        <i class="fa fa-pinterest-p hover-opacity footer-icons"></i>
+        <i class="fa fa-twitter hover-opacity footer-icons"></i>
+        <i class="fa fa-linkedin hover-opacity footer-icons"></i>
+    </div>
 </footer>
 
 <div>
