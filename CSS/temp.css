@@ -5,6 +5,18 @@
 }
 
 
+.favicon:hover{
+	cursor: pointer;
+}
+
+.button{
+	alignment: center;
+	margin-bottom: 20px;
+	text-align: center;
+	position: relative;
+	left: 40%;
+
+}	
 
 .hobby-container {
     font-size: 15px;
@@ -42,6 +54,8 @@ html {
 body {
     margin: 0
 }
+
+
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
     display: block
@@ -445,7 +459,7 @@ a {
 }
 
 .dropdown-content {
-    cursor: auto;
+    cursor: pointer;
     color: #000;
     background-color: #fff;
     display: none;
@@ -575,6 +589,12 @@ a {
     width: 100%
 }
 
+
+.gst{
+	float: left;
+    width: 50%;
+	padding: 20px  30px 30px 10px;
+}
 .col.s1 {
     width: 8.33333%
 }

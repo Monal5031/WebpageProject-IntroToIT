@@ -1,6 +1,3 @@
-/**
- * Created by Monal on 4/14/2017.
- */
 function nameDefined(ckie, nme) {
     var splitValues;
     var i;
@@ -112,3 +109,10 @@ window.smoothScroll = function (target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 };
+
+function displayContent(){
+	var name = document.getElementById('name');
+	var email = document.getElementById('email');
+	var message = document.getElementById('message');
+	alert('Name: ' +  name.value + '\n' + 'E-Mail: ' + email.value + '\n' + 'Your Message: ' + message.value);
+}
