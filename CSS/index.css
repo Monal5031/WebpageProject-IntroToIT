@@ -1,37 +1,60 @@
+table {
+    font-family: "Roboto", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #009688;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: #dadada;
+    color: #00a898;
+}
+
 .hover-cursor {
     cursor: pointer;
 }
-#time{
-	font-family: "Sans-serif", Segoe UI;
-	font-size: 25px;
-	padding : 8px;
+
+#time {
+    font-family: "Sans-serif", Segoe UI;
+    font-size: 25px;
+    padding: 8px;
 }
 
-.footer-icons-div{
+.footer-icons-div {
     font-size: 20px;
     position: inherit;
 }
 
-.footer-icons{
-    margin-right : 10px;
+.footer-icons {
+    margin-right: 10px;
 }
 
-.footer-icons:hover{
-    cursor:pointer;
+.footer-icons:hover {
+    cursor: pointer;
 }
 
-.favicon:hover{
-	cursor: pointer;
+.favicon:hover {
+    cursor: pointer;
 }
 
-.button{
-	alignment: center;
-	margin-bottom: 20px;
-	text-align: center;
-	position: relative;
-	left: 40%;
+.button {
+    alignment: center;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    left: 40%;
 
-}	
+}
 
 .hobby-container {
     font-size: 15px;
@@ -69,8 +92,6 @@ html {
 body {
     margin: 0
 }
-
-
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
     display: block
@@ -604,12 +625,12 @@ a {
     width: 100%
 }
 
-
-.gst{
-	float: left;
+.gst {
+    float: left;
     width: 50%;
-	padding: 20px  30px 30px 10px;
+    padding: 20px 30px 30px 10px;
 }
+
 .col.s1 {
     width: 8.33333%
 }
@@ -1234,10 +1255,10 @@ a {
     background-color: #fdf5e6 !important
 }
 
-.color-name{
-	margin: 5px;
-	font-size:25px;
-	background: #009688;
+.color-name {
+    margin: 5px;
+    font-size: 25px;
+    background: #009688;
 }
 
 .color-teal, .hover-teal:hover {
