@@ -6,8 +6,8 @@ Works to be done:
 
 * <s>Navbar</s>
 * <s>Separator</s>
-* Decide guest book
+* <s>Decide guest book</s>
 * <s>Home</s>
-* Insert Table
+* <s>Insert Table</s>
 * <s>Contact</s>
 * <s>Content</s>
