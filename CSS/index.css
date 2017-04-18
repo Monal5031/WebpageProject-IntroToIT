@@ -1,3 +1,13 @@
+.transition-effect {
+    background: #009688;
+}
+
+.transition-effect:hover {
+    width: 31px;
+    height: 31px;
+    -moz-transform: ease-in 1s;
+    transform: ease-in 1s;
+}
 table {
     font-family: "Roboto", sans-serif;
     border-collapse: collapse;
@@ -5,7 +15,7 @@ table {
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #555555;
     text-align: left;
     padding: 8px;
 }
