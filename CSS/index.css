@@ -1,3 +1,6 @@
+.half {
+    width: 30%;
+}
 .field {
     border-color: #000000;
 }
@@ -19,7 +22,7 @@
 }
 table {
     font-family: "Roboto", sans-serif;
-    border-collapse: collapse;
+
     width: 100%;
 }
 

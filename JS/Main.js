@@ -110,12 +110,12 @@ window.smoothScroll = function (target) {
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 };
 
-function displayContent(){
-	var name = document.getElementById('name');
-	var email = document.getElementById('email');
-	var message = document.getElementById('message');
-	alert('Name: ' +  name.value + '\n' + 'E-Mail: ' + email.value + '\n' + 'Your Message: ' + message.value);
-	document.getElementById('name').value=null;
-	document.getElementById('email').value=null;
-	document.getElementById('message').value=null;
+function displayContent() {
+    var name = document.getElementById('name');
+    var email = document.getElementById('email');
+    var message = document.getElementById('message');
+    alert('Name: ' + name.value + '\n' + 'E-Mail: ' + email.value + '\n' + 'Your Message: ' + message.value);
+    document.getElementById('name').value = null;
+    document.getElementById('email').value = null;
+    document.getElementById('message').value = null;
 }
